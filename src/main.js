@@ -84,14 +84,13 @@ function animate() {
 }
 animate();
 
-// 반응형 대응
 window.addEventListener('resize', () => {
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
   renderer.setSize(window.innerWidth, window.innerHeight);
 });
 
-// 저장 버튼 이벤트
+
 document.addEventListener('DOMContentLoaded', () => {
   const saveBtn = document.getElementById('save-btn');
   if (saveBtn) {
