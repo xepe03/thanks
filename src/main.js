@@ -38,7 +38,7 @@ controls.dampingFactor = 0.05;
 const loader = new GLTFLoader();
 let mixer;
 
-loader.load('/model.glb', (gltf) => {
+loader.load('./model.glb', (gltf) => {
   scene.add(gltf.scene);
 
   if (gltf.animations.length) {
