@@ -1,0 +1,6 @@
+git add .
+git commit -m "수정"
+git push origin main
+npm run build
+npm run deploy
+https://xepe03.github.io/thanks/
