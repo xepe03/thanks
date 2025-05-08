@@ -1,5 +1,4 @@
 // vite.config.js
 export default {
-    base: '/thanks/', // ← repo 이름이랑 똑같이
+    base: '/thanks/', // 꼭 있어야 함
   };
-  
